@@ -203,11 +203,8 @@ class Model extends Base {
      * 微信登录获取code
      */
 
-    private $appid="wx006e93b1dfa94fe2";
-    private $secret= "b9c6db96811c574120c2fd4917fee9f2";
-
-//    private $appid = "wx01f4700faf414773";
-//    private $secret = "e40981e738c4e035f84bb43c1cd69eaa";
+    private $appid="wx006e9335416asdfsa";
+    private $secret= "b9c6db96811c574120casdfsfaf4546";
 
     public function getCode(){
         $code = input("code", "");//微信code
